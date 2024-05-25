@@ -16,15 +16,15 @@ This document provides an overview of the API endpoints and their functions of V
 
 ## Customer Endpoints
 
-| Endpoint                              | HTTP Method | Description                                                           |
-|---------------------------------------|-------------|-----------------------------------------------------------------------|
-| /customers/save                       | POST        | Add new customer.                                                     |
-| /customers/findById/{id}              | GET         | Retrieve the customer with the specified ID.                          |
-| /customers/update                     | PUT         | Update the customer.                                                  |
-| /customers/delete/{id}                | DELETE      | Delete the customer with the specified ID.                            |
-| /customers/findByName/{name}          | GET         | Retrieve the customer with the specified name.                        |
-| /customers/findAll                    | GET         | Retrieve all customers.                                               |
-| /customers/byAnimalList/{id}          | GET         | Retrieve all customers and animals with specified ID.                 |
+| Endpoint                              | HTTP Method | Description                                          |
+|---------------------------------------|-------------|------------------------------------------------------|
+| /customers/save                       | POST        | Add new customer.                                    |
+| /customers/findById/{id}              | GET         | Retrieve the customer with the specified ID.         |
+| /customers/update                     | PUT         | Update the customer.                                 |
+| /customers/delete/{id}                | DELETE      | Delete the customer with the specified ID.           |
+| /customers/findByName/{name}          | GET         | Retrieve the customer with the specified name.       |
+| /customers/findAll                    | GET         | Retrieve all customers.                              |
+| /customers/byAnimalList/{id}          | GET         | Retrieve all animals of customers with specified ID. |
 
 ## Vaccine Endpoints
 
