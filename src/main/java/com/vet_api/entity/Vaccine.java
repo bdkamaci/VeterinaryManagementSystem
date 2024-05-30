@@ -2,16 +2,13 @@ package com.vet_api.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDate;
 @Entity
 @Table(name = "vaccines")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Getter
+@Setter
 public class Vaccine {
 
     @Id
